@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.2.0-beta1"
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "MRA Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
   }
 }
