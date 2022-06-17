@@ -1,9 +1,56 @@
 body {
-
+    font-family: "Open Sans", sans-serif; 
 }
 
+h1, h2, h3 {
+    font-family: "Stoke", cursive;
+}
+
+
 header {
-    background-color: #78467D;
+    background: linear-gradient(to right, #78467d, white);
     color: rgb(255, 255, 255);
     font-size: large;
+}
+
+#assc {
+    margin-left: 15rem;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #60106B, #9d71a3);
+    color: white;
+    margin: 0;
+    text-shadow: #9d71a3;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar {
+    background-color: #901cad95;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+a, a:hover {
+    color:inherit;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.carousel  {
+    border: solid #5637DD;
 }
