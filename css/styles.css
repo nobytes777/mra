@@ -61,7 +61,7 @@ a, a:hover {
 }
 
 .carousel  {
-    border: solid #5637DD;
+    border: solid #901cad95;
 
 }
 
@@ -96,3 +96,5 @@ a, a:hover {
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
     }
+
+    
