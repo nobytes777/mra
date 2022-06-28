@@ -26,7 +26,7 @@
     
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
+    <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark d-flex">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="img\MRA Mini-logo.png" height="30px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown inverted-7">
-                <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell-concierge"></i>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white"><i class="fa-solid fa-bell-concierge"></i>
                   Services
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -74,7 +74,7 @@
                 </ul>
               </li>
               <li class="nav-item inverted-7">
-                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-link"></i>Links</a>
+                <a class="nav-link active" aria-current="page" href="links.html"><i class="fa-solid fa-link"></i>Links</a>
               </li>
                 <li class="nav-item inverted-7">
                   <a class="nav-link active" aria-current="page" href="contactus.html"><i class="fa-solid fa-address-card"></i>Contact Us</a>
@@ -86,48 +86,53 @@
             </form>
           </div>
         </div>
-      </nav> 
-  <div class="container-fluid">
-      <div class="container">
-        <div class="row row-content">
-          <h3 class="text-center" style="color: #78467d;">Contact Us</h3>
-        </br>
-            <div class="col col-md-6">
-              <p class="lead">Request an Appointment</p>
-              <form>
-                <div class="form-group">
-                  <label for="firstAndLast">Preferred Appointment Date</label>
-                  <input type="date" class="form-control" id="preferredAppt" name="preferredAppt" placeholder="06/27/2022" >
-                </div>
-                <div class="form-group">
-                  <label for="firstAndLast">First & Last Name</label>
-                  <input type="text" class="form-control" id="firstAndLast" name="firstAndLast" placeholder="First & Last Name Here">
-                </div>
-                <div class="form-group">
-                  <label for="emailAdd">Email Address</label>
-                  <input type="text" class="form-control" id="emailAdd" placeholder="EmailHere@nomail.com">
-                </div>
-                <div class="form-group">
-                  <label for="phoneNumber">Phone Number</label>
-                  <input type="tel" class="form-control" id="phoneNumber" placeholder="(303) 888-9999">
-                </div>
-              </form>
-              </div>
-            <div class="col col-md-6">
-              <p class="lead">Contact Info</p>
-              <a role="button" class="btn btn-link inverted-7" href="tel:13034214775"><i class="fa-solid fa-phone" style="color: #78467d; padding-right: 5px;"></i>(303) 421-4775 </a><br />
-              <a role="button" class="btn btn-link inverted-7" href="tel:17203282270"><i class="fa-solid fa-fax" style="color: #78467d; padding-right: 5px;"></i>(720) 328-2270 </a><br />
-              <a role="button" class="btn btn-link inverted-7" href="mailto:campsites@nucamp.co"><i class="fa-solid fa-square-envelope" style="color: #78467d; padding-right: 5px;"></i>tax@mracpas.com</a>
-            </div>
+      </nav>
+      <h5>Services</h5> 
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button style="color:#78467d" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Social Security Administration
+              </button>
+            </h5>
           </div>
-        <div class="row row-content">
-            <div class="col">
-              <div><p class="lead">Directions</h2></div>
-                <iframe class="col-sm-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.020474189881!2d-105.141626585532!3d39.78409590179621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b87ad9ab52973%3A0x3c76b0e82577c1d2!2sMartillaro%20Raub%20%26%20Associates!5e0!3m2!1sen!2sus!4v1656348623573!5m2!1sen!2sus" height="450" width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <a href="http://www.ssa.gov/">Social Security Administration</a> administers retirement, medicare, disability and other benefits
             </div>
           </div>
         </div>
-    </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button style="color:#78467d" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button style="color:#78467d" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
   <footer>
             
                 <div class="row row-content align-items-center">
