@@ -10,6 +10,11 @@ h1, h2, h3 {
     font-family: "Kaushan Script", cursive;
 }
 
+h4, h5, h6 {
+    font-family: "Kaushan Script", cursive;
+    color:#901cad95;
+}
+
 
 header {
     background: linear-gradient(to right, #78467d, white);
